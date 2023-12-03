@@ -1,3 +1,125 @@
+
+:root {
+    --persianindigo: #2d0e75;
+    --mysin: #fbb220;
+    --lg-orange: #fec551;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Monserrat', sans-serif;
+}
+
+h1 {
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+a {
+    color: var(--lg-orange);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--mysin);
+}
+
+.heading {
+    background-color: var(--persianindigo);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: var(--mysin);
+    padding: 2%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* navigation*/
+#mainNav{
+    background-color: #3c139c;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+    font-weight: 600;
+    color: var(--lg-orange);
+}
+
+#mainNav .navbar-nav > a {
+    color: var(--mysin);
+}
+
+#mainNav .navbar-nav > a:hover {
+    color: var(--lg-orange);
+}
+
+/*jumbotron*/
+.main-banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/yusuf-onuk-pGpbccZU3vk-unsplash.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 15%;
+}
+
+.header-banner {
+    color: var(--mysin);
+}
+
+/*Work section*/
 .workGrid {
-   
+    background-color: var(--persianindigo);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-title, .card-text {
+    color: var(--persianindigo);
+}
+
+#skills {
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.skillsGrid {
+    background-color: var(--persianindigo);
+    color: white;
+    padding: 5%;
+}
+
+#about-me-contact {
+    background: var(--persianindigo);
+    color: white;
+    padding: 3%;
+
+}
+
+#about-me {
+    padding: 7%;
+}
+
+
+
+.footer {
+    background-color: var(--persianindigo);
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 2%;
+    text-align: end;
 }
