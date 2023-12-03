@@ -30,6 +30,8 @@ a:hover {
 .heading {
     background-color: var(--persianindigo);
     font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
     text-align: center;
     color: var(--mysin);
     padding: 2%;
@@ -77,8 +79,15 @@ p {
 }
 
 /*Work section*/
+
+#myworks {
+    padding: 60px;
+    padding-top: 150px;
+}
 .workGrid {
     background-color: var(--persianindigo);
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .card-img-top {
@@ -91,6 +100,7 @@ p {
     color: var(--persianindigo);
 }
 
+/*Skills section*/
 #skills {
     padding: 5%;
     margin-bottom: 2%;
@@ -99,9 +109,10 @@ p {
 .skillsGrid {
     background-color: var(--persianindigo);
     color: white;
-    padding: 5%;
+    font-size: 20px;
 }
 
+/*Contact section*/
 #about-me-contact {
     background: var(--persianindigo);
     color: white;
@@ -114,7 +125,7 @@ p {
 }
 
 
-
+/*Footer*/
 .footer {
     background-color: var(--persianindigo);
     color: white;
