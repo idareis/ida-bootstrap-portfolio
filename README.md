@@ -6,7 +6,7 @@ A showcase of my skills and works through a website learned through other course
 
 ## Usage
 
-Deployed URL: https://idareis.github.io/ida-profile-portfolio/
+Deployed URL: https://idareis.github.io/ida-bootstrap-portfolio/
 
 - Each option in the navigation bar will take you to the section selected. The name has the same function as the Home section and will take you to the top of the page.
 - Clicking on each image of the Work section will take you to the deployed website.
