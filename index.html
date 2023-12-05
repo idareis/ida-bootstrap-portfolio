@@ -28,7 +28,6 @@
             </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 <a class="nav-link" href="#about-me">About Me</a>
                 <a class="nav-link" href="#skills">My Skills</a>
                 <a class="nav-link" href="#myworks">My Works</a>
@@ -37,6 +36,7 @@
             </div>
         </div>
     </nav>
+
 <!-- Jumbotron -->
 <header class="main-banner">
     <div class="container h-100">
@@ -49,7 +49,7 @@
         </div>
         <div class="col-lg-5 my-auto profile-image">
             <div class="device-container">
-            <img src="images/ida-modified.png" alt="">
+            <img src="images/ida-modified.png" alt=""><!-- add alt text -->
             </div>
         </div>
         </div>
@@ -59,22 +59,22 @@
 <body>
 <!-- Work section -->
 
-<div class="container-fluid workGrid">
+<div class="container-fluid workGrid"> <!-- add descriptions and alt -->
     <h2 class="heading" id="myworks">Works</h2>
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12" style="padding: 10px;">
             <div class="card">
                 <img src="images/127.0.0.1_5500_index.html.png" class="card-img-top" alt="..." id="portfolio">
                 <div class="card-body">
                     <h5 class="card-title">Portfolio</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-outline-primary">Check it!</a><!--  add website -->
+                    <a href="https://idareis.github.io/ida-profile-portfolio/" class="btn btn-outline-primary" target="_blank">Check it!</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="padding: 10px;">
             <div class="card">
                 <img src="images/127.0.0.1_5500_horiseon-code-refactor_index.html.png" class="card-img-top" alt="..." id="horiseon">
                 <div class="card-body">
@@ -84,7 +84,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="padding: 10px;">
             <div class="card">
                 <img src="images/idareis.github.io_final-project-cfg_.png" class="card-img-top" alt="..." id="cheekyChoc">
                 <div class="card-body">
@@ -96,7 +96,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="padding: 10px;">
             <div class="card">
                 <img src="images/paimon.moe_.png" class="card-img-top" alt="..." id="paimonMoe">
                 <div class="card-body">
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6" style="padding: 10px;">
             <div class="card">
                 <img src="images/genshin.dev_.png" class="card-img-top" alt="..." id="genshinDev">
                 <div class="card-body">
@@ -118,18 +118,19 @@
         </div>
     </div>
 </div>
+
 <!-- Skills -->
 
 <div class="container-fluid text-center skillsGrid">
     <h2 class="heading" id="skills">Skills</h2>
-    <div class="row row-cols-sm-2 row-cols-md-4">
+    <div class="row row-cols-sm-2 row-cols-md-4" style="padding: 2em;">
         <div class="col">HTML</div>
         <div class="col">CSS</div>
         <div class="col">Git</div>
         <div class="col">JavaScript</div>
     </div>
 
-    <div class="row row-cols-sm-2 row-cols-md-4">
+    <div class="row row-cols-sm-2 row-cols-md-4" style="padding: 2em;">
         <div class="col">React</div>
         <div class="col">Node.js</div>
         <div class="col">JQuery</div>
@@ -137,8 +138,8 @@
 
     </div>
 </div>
-<!-- About Me -->
 
+<!-- About Me -->
 
 <div class="container-fluid" id="about-me-contact">
     <h2 class="heading"  id="about-me">About Me/Contacts</h2>
@@ -148,7 +149,7 @@
     <p>Beyond coding, I find solace in the enchanting world of literature. Music is my constant companion, exploring diverse melodies and rhythms that fuel my creativity. I'm also an avid visitor to art exhibitions, finding beauty and innovation in different styles. I'm discovering new freedom and excitement through travelling and discovering new cultures and languages. Let's blend technology and artistry to craft compelling digital landscapes.</p>
         </div>
 
-        <div class="col-sm-6"><!-- add icons-->
+        <div class="col-sm-6" id="contacts">
             <a href="https://github.com/idareis/#"><i class="bi bi-telephone" style="font-size: 50px; padding: 1em;"></i></a>
             <a href ="https://github.com/idareis/#" target="_blank"><i class="bi bi-envelope"style="font-size: 50px; padding: 1em;"></i></a>
             <a href="https://github.com/idareis" target="_blank"><i class="bi bi-github" style="font-size: 50px; padding: 1em;"></i></a>
