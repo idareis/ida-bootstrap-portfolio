@@ -26,7 +26,7 @@ Photo by <a href="https://unsplash.com/@onkysf?utm_content=creditCopyText&utm_me
 
 Credits to <a href="https://github.com/Natalattef">Natalattef</a> for the collaboration for the Cheeky Choc website.
 
-Credits to <a href="https://github.com/MadeBaruna">MadeBaruna</a> and <a href="https://github.com/NurMarvin">Marvin Witt</a> for images and links provided for the open source APIs/applications.
+Credits to <a href="https://github.com/MadeBaruna">MadeBaruna</a> and <a href="https://github.com/NurMarvin">Marvin Witt</a> for images, descriptions and links provided for the open source APIs/applications.
 
   
 
