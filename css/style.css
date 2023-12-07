@@ -81,13 +81,13 @@ p {
 /*Work section*/
 
 #myworks {
-    padding: 60px;
+    padding: 30px;
     padding-top: 150px;
 }
 .workGrid {
     background-color: var(--persianindigo);
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .card-img-top {
